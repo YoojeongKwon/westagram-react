@@ -9,7 +9,7 @@ const Main = () => {
         <div className="westaWrap">
           <img
             id="instagramLogo"
-            src="img/instagram.png"
+            src="/images/instagram.png"
             alt="인스타그램 로고"
           />
           <div className="westagram">Westagram</div>
@@ -39,19 +39,19 @@ const Main = () => {
           </button>
         </div>
         <div id="dropBox">
-          <a href="#">
-            <img src="img/save-instagram.png" alt="프로필" />
+          <a href="#none">
+            <img src=".images/save-instagram.png" alt="프로필" />
             프로필
           </a>
-          <a href="#">
-            <img src="img/save-instagram.png" alt="저장" />
+          <a href="#none">
+            <img src="/images/save-instagram.png" alt="저장" />
             저장됨
           </a>
-          <a id="setting" href="#">
-            <img src="img/save-instagram.png" alt="설정" />
+          <a id="setting" href="#none">
+            <img src="/images/save-instagram.png" alt="설정" />
             설정
           </a>
-          <a id="log_out" href="#">
+          <a id="log_out" href="#none">
             로그아웃
           </a>
         </div>
@@ -61,8 +61,12 @@ const Main = () => {
           <div className="leftSectionArticle">
             <nav className="profileNav">
               <span className="profileNavInner1">
-                <img className="profileImg" src="img/user.png" alt="프로필" />
-                <a href="#" className="profileName">
+                <img
+                  className="profileImg"
+                  src="/images/user.png"
+                  alt="프로필"
+                />
+                <a href="#none" className="profileName">
                   canon_mj
                 </a>
               </span>
@@ -70,37 +74,41 @@ const Main = () => {
             </nav>
             <img
               className="uploadImg"
-              src="img/chad-montano-MqT0asuoIcU-unsplash.jpg"
+              src="/images/chad-montano-MqT0asuoIcU-unsplash.jpg"
               alt="피자"
             />
             <div className="profileIconWrap">
               <button className="profileHeart">
-                <img className="profileHeart" src="img/heart.png" alt="하트" />
+                <img
+                  className="profileHeart"
+                  src="/images/heart.png"
+                  alt="하트"
+                />
               </button>
               <button className="profileComment">
                 <img
                   className="profileComment"
-                  src="img/speech-bubble.png"
+                  src="/images/speech-bubble.png"
                   alt="댓글"
                 />
               </button>
               <button className="profileUproad">
                 <img
                   className="profileUproad"
-                  src="img/upload.png"
+                  src="/images/upload.png"
                   alt="업로드"
                 />
               </button>
               <button className="profileSave">
                 <img
                   className="profileSave"
-                  src="img/save-instagram.png"
+                  src="/images/save-instagram.png"
                   alt="저장"
                 />
               </button>
             </div>
             <div className="likeWrap">
-              <a href="#" className="likeId">
+              <a href="#none" className="likeId">
                 aineworld
               </a>
               님<span className="likeCount">외 10명</span>이 좋아합니다.
@@ -121,7 +129,7 @@ const Main = () => {
           <div className="userProfileWrap">
             <img
               className="userProfileImg"
-              src="img/account.png"
+              src="/images/account.png"
               alt="프로필"
             />
             <div className="userIdWrap">
@@ -138,11 +146,11 @@ const Main = () => {
               <li className="storyProfileWrap">
                 <img
                   className="storyProfileImg"
-                  src="img/karl-magnuson-85J99sGggnw-unsplash.jpg"
+                  src="/images/karl-magnuson-85J99sGggnw-unsplash.jpg"
                   alt="sunset"
                 />
                 <div className="storyIdWrap">
-                  <a href="#" className="storyId">
+                  <a href="#none" className="storyId">
                     _yum_s
                   </a>
                   <div className="storyTime">16분 전</div>
@@ -151,11 +159,11 @@ const Main = () => {
               <li className="storyProfileWrap">
                 <img
                   className="storyProfileImg"
-                  src="img/samsung-uk-no101tswX7I-unsplash.jpg"
+                  src="/images/samsung-uk-no101tswX7I-unsplash.jpg"
                   alt="대화하는 두 여성"
                 />
                 <div className="storyIdWrap">
-                  <a href="#" className="storyId">
+                  <a href="#none" className="storyId">
                     drink_eat_drink
                   </a>
                   <div className="storyTime">3시간 전</div>
@@ -164,11 +172,11 @@ const Main = () => {
               <li className="storyProfileWrap">
                 <img
                   className="storyProfileImg"
-                  src="img/karl-magnuson-85J99sGggnw-unsplash.jpg"
+                  src="/images/karl-magnuson-85J99sGggnw-unsplash.jpg"
                   alt="sunset"
                 />
                 <div className="storyIdWrap">
-                  <a href="#" className="storyId">
+                  <a href="#none" className="storyId">
                     hyukyc
                   </a>
                   <div className="storyTime">20시간 전</div>
@@ -177,11 +185,11 @@ const Main = () => {
               <li className="storyProfileWrap">
                 <img
                   className="storyProfileImg"
-                  src="img/samsung-uk-no101tswX7I-unsplash.jpg"
+                  src="/images/samsung-uk-no101tswX7I-unsplash.jpg"
                   alt="대화하는 두 여성"
                 />
                 <div className="storyIdWrap">
-                  <a href="#" className="storyId">
+                  <a href="#none" className="storyId">
                     jminkeek
                   </a>
                   <div className="storyTime">22시간 전</div>
@@ -199,11 +207,11 @@ const Main = () => {
                 <div className="recommendImgWrap">
                   <img
                     className="recommendProfileImg"
-                    src="img/samsung-uk-no101tswX7I-unsplash.jpg"
+                    src="/images/samsung-uk-no101tswX7I-unsplash.jpg"
                     alt="대화하는 두 여성"
                   />
                   <div className="recommendIdWrap">
-                    <a href="#" className="recommendId">
+                    <a href="#none" className="recommendId">
                       joaaaaahye
                     </a>
                     <div className="recommendFollower">
@@ -217,11 +225,11 @@ const Main = () => {
                 <div className="recommendImgWrap">
                   <img
                     className="recommendProfileImg"
-                    src="img/karl-magnuson-85J99sGggnw-unsplash.jpg"
+                    src="/images/karl-magnuson-85J99sGggnw-unsplash.jpg"
                     alt="sunset"
                   />
                   <div className="recommendIdWrap">
-                    <a href="#">rampart81</a>
+                    <a href="#none">rampart81</a>
                     <div className="recommendFollower">
                       ringo.in.seoul님 외 12...
                     </div>
@@ -233,11 +241,11 @@ const Main = () => {
                 <div className="recommendImgWrap">
                   <img
                     className="recommendProfileImg"
-                    src="img/samsung-uk-no101tswX7I-unsplash.jpg"
+                    src="/images/samsung-uk-no101tswX7I-unsplash.jpg"
                     alt="대화하는 두 여성"
                   />
                   <div className="recommendIdWrap">
-                    <a href="#">shawnjjoo</a>
+                    <a href="#none">shawnjjoo</a>
                     <div className="recommendFollower">
                       jimmylee1220님 외 1...
                     </div>
@@ -250,47 +258,46 @@ const Main = () => {
           <p className="etc">
             <a className="etc" href="#">
               instagram 정보
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               지원
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               홍보 센터
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               API
-            </a>{" "}
-            ・{" "}
+            </a>
             <a className="etc" href="#">
               채용
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               정보
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               개인정보처리방침
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               약관
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               디렉터리
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               프로필
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               해시태그
-            </a>{" "}
+            </a>
             ・
             <a className="etc" href="#">
               언어
@@ -303,108 +310,108 @@ const Main = () => {
   );
 };
 
-const addButton = document.querySelector(".addCommentButton");
+// const addButton = document.querySelector(".addCommentButton");
 
-const newComment = document.querySelector(".newComment");
-const addComment = document.querySelector(".addComment");
+// const newComment = document.querySelector(".newComment");
+// const addComment = document.querySelector(".addComment");
 
-// 게시 버튼 누르면 댓글 추가
-// const newComment = `<span>아이디</span><span>${변수(댓글 내용)}</span>`
-// newCommentList.innerHTML = newComment
-// => getElement로 각각의 span 생성해서 value를 appendChild 등등을 할 필요가 없어짐!
-addButton.addEventListener("click", (event) => {
-  createComment();
-});
+// // 게시 버튼 누르면 댓글 추가
+// // const newComment = `<span>아이디</span><span>${변수(댓글 내용)}</span>`
+// // newCommentList.innerHTML = newComment
+// // => getElement로 각각의 span 생성해서 value를 appendChild 등등을 할 필요가 없어짐!
+// addButton.addEventListener("click", (event) => {
+//   createComment();
+// });
 
-const createComment = () => {
-  if (addComment.value === "") {
-    return;
-  }
+// const createComment = () => {
+//   if (addComment.value === "") {
+//     return;
+//   }
 
-  const commentTotalWrap = document.createElement("div");
-  commentTotalWrap.classNameName = "commentTotalWrap";
+//   const commentTotalWrap = document.createElement("div");
+//   commentTotalWrap.classNameName = "commentTotalWrap";
 
-  const commentId = document.createElement("a");
-  commentId.href = "#";
-  commentId.classNameName = "commentId";
-  commentId.innerText = "user Id";
-  commentId.style.marginRight = "8px";
+//   const commentId = document.createElement("a");
+//   commentId.href = "#";
+//   commentId.classNameName = "commentId";
+//   commentId.innerText = "user Id";
+//   commentId.style.marginRight = "8px";
 
-  const comment = document.createElement("span");
-  comment.classNameName = "comment";
-  comment.innerText = addComment.value;
+//   const comment = document.createElement("span");
+//   comment.classNameName = "comment";
+//   comment.innerText = addComment.value;
 
-  const commentLike = document.createElement("button");
-  const heartImg = document.createElement("img");
-  comment.style.width = heartImg.width;
-  heartImg.classNameName = "commentLike";
-  heartImg.src = "img/heart.png";
-  heartImg.alt = "하트";
+//   const commentLike = document.createElement("button");
+//   const heartImg = document.createElement("img");
+//   comment.style.width = heartImg.width;
+//   heartImg.classNameName = "commentLike";
+//   heartImg.src = "img/heart.png";
+//   heartImg.alt = "하트";
 
-  const deleteComment = document.createElement("button");
-  deleteComment.classNameName = "deleteComment";
-  deleteComment.innerText = "x";
+//   const deleteComment = document.createElement("button");
+//   deleteComment.classNameName = "deleteComment";
+//   deleteComment.innerText = "x";
 
-  commentLike.appendChild(heartImg);
+//   commentLike.appendChild(heartImg);
 
-  commentTotalWrap.appendChild(commentId);
-  commentTotalWrap.appendChild(comment);
-  commentTotalWrap.appendChild(commentLike);
-  commentTotalWrap.appendChild(deleteComment);
+//   commentTotalWrap.appendChild(commentId);
+//   commentTotalWrap.appendChild(comment);
+//   commentTotalWrap.appendChild(commentLike);
+//   commentTotalWrap.appendChild(deleteComment);
 
-  newComment.appendChild(commentTotalWrap);
+//   newComment.appendChild(commentTotalWrap);
 
-  addComment.value = "";
+//   addComment.value = "";
 
-  if (addComment.value === "") {
-    addComment.focus();
-  }
+//   if (addComment.value === "") {
+//     addComment.focus();
+//   }
 
-  // x 버튼 누르면 댓글 삭제
-  deleteComment.addEventListener("click", (e) => {
-    commentTotalWrap.remove();
-  });
-};
+//   // x 버튼 누르면 댓글 삭제
+//   deleteComment.addEventListener("click", (e) => {
+//     commentTotalWrap.remove();
+//   });
+// };
 
-addComment.addEventListener("keypress", (event) => {
-  if (event.key === "Enter") {
-    return createComment();
-  }
-});
+// addComment.addEventListener("keypress", (event) => {
+//   if (event.key === "Enter") {
+//     return createComment();
+//   }
+// });
 
-const profileHeart = document.getElementsByclassNameName("profileHeart")[1];
-// 하트 누르면 빨간 하트
-profileHeart.addEventListener("click", (e) => {
-  profileHeart.src = "img/redheart.png";
+// const profileHeart = document.getElementsByclassNameName("profileHeart")[1];
+// // 하트 누르면 빨간 하트
+// profileHeart.addEventListener("click", (e) => {
+//   profileHeart.src = "img/redheart.png";
 
-  // if (profileHeart.src === "img/redheart.png") {
-  //   profileHeart.src = "img/heart.png";
-  // }
-});
+//   // if (profileHeart.src === "img/redheart.png") {
+//   //   profileHeart.src = "img/heart.png";
+//   // }
+// });
 
-const profileSave = document.getElementsByclassNameName("profileSave")[1];
-// 저장 누르면 채워진 아이콘
-profileSave.addEventListener("click", (e) => {
-  profileSave.src = "img/bookmark.png";
+// const profileSave = document.getElementsByclassNameName("profileSave")[1];
+// // 저장 누르면 채워진 아이콘
+// profileSave.addEventListener("click", (e) => {
+//   profileSave.src = "img/bookmark.png";
 
-  // if (profileSave.src === "img/bookmark.png") {
-  //   profileSave.src = "img/save-instagram.png";
-  // }
-});
+//   // if (profileSave.src === "img/bookmark.png") {
+//   //   profileSave.src = "img/save-instagram.png";
+//   // }
+// });
 
-const dropButton = document.getElementById("dropButton");
-const dropBox = document.getElementById("dropBox");
+// const dropButton = document.getElementById("dropButton");
+// const dropBox = document.getElementById("dropBox");
 
-// 드롭버튼 클릭하면 dropbox 보이도록
-dropButton.addEventListener("click", (e) => {
-  dropBox.style.display = "block";
-});
+// // 드롭버튼 클릭하면 dropbox 보이도록
+// dropButton.addEventListener("click", (e) => {
+//   dropBox.style.display = "block";
+// });
 
-// 전역에 클릭이벤트 주어서 드롭박스 사라지게
-const removeDropBox = document.querySelector(".mainWrap");
+// // 전역에 클릭이벤트 주어서 드롭박스 사라지게
+// const removeDropBox = document.querySelector(".mainWrap");
 
-removeDropBox.addEventListener("click", (e) => {
-  dropBox.style.display = "none";
-});
+// removeDropBox.addEventListener("click", (e) => {
+//   dropBox.style.display = "none";
+// });
 
 export default Main;
