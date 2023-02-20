@@ -1,4 +1,6 @@
 import React from "react";
+import "./Main.css";
+import "../../styles/common.css";
 
 const Main = () => {
   return (

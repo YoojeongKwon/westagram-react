@@ -1,19 +1,21 @@
 import React from "react";
+import "./Login.css";
+import "../../styles/common.css";
 
 const Login = () => {
   return (
-    <main classNameName="totalWrap">
-      <h1 classNameName="westagram">Westagram</h1>
+    <main className="totalWrap">
+      <h1 className="westagram">Westagram</h1>
       <input
-        classNameName="id"
+        className="id"
         type="text"
         placeholder="전화번호, 사용자 이름 또는 이메일"
       />
-      <input classNameName="password" type="password" placeholder="비밀번호" />
-      <button classNameName="loginButton" disabled onClick={activeButton}>
+      <input className="password" type="password" placeholder="비밀번호" />
+      <button className="loginButton" disabled>
         로그인
       </button>
-      <a href="#" className="forgetText">
+      <a href="#none" className="forgetText">
         비밀번호를 잊으셨나요?
       </a>
     </main>
